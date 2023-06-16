@@ -1,5 +1,5 @@
-fn hello(name: String) -> String{
-    return "Hello".to_string() + &name.to_string();
+fn hello(name: String){
+    println!("Hello, {name}");
 }
 
 fn main(){
